@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.topbar {
+  height: 56px;
+  background-color: #4d4d4d;
+}
+
+.sidebar {
+  position: fixed;
+  width: 216px;
+  height: 100vh;
+  background-color: #4e4e4e;
+}
+
+.video-container {
+  margin-left: 230px;
+  margin-top: 55px;
+  margin-right: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 1rem;
+}
+
+.video-content {
+  display: flex;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image-c {
+  margin-top: 5px;
+  max-height: 36px;
+  border-radius: 100%;
+}
+
+.video-name {
+  margin-left: 10px;
+}
+
+.chanel-name {
+  font-size: 0.7rem;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.chanel-name a {
+  color: #8a8a8a;
+}
+
+.view-count {
+  margin-left: 10px;
+}
+
+.view-count span {
+  font-size: 0.7rem;
+  color: #8a8a8a;
+}
+
+.shorts-header {
+  margin-left: 240px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.shorts-header h3 {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.shorts-icon {
+  max-width: 1rem;
+}
+
+.shorts-container {
+  margin-left: 240px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.shorts-img {
+  max-height: 405px;
+  border-radius: 10px;
+}
+
+.shorts-view span {
+  color: #8a8a8a;
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width: 1460px) {
+  .sidebar {
+    width: 70px;
+  }
+
+  .video-container {
+    margin-left: 75px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+  }
+
+  .shorts-container {
+    margin-left: 75px;
+  }
+
+  .chanel-content{
+    max-width: 220px;
+  }
+
+  .shorts-header{
+    margin-left: 75px;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar {
+    width: 70px;
+  }
+
+  .video-container {
+    margin-left: 75px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+  }
+
+  .shorts-container {
+    margin-left: 75px;
+
+  }
+
+  .chanel-content{
+    max-width: 200px;
+  }
+
+  .shorts-header{
+    margin-left: 75px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .video-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar {
+    display: none;
+  }
+
+  .video-container {
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 1rem;
+  }
+
+  .shorts-container{
+    margin: 0;
+    justify-content: center;
+  }
+
+  .shorts-header{
+    margin-left: 10px;
+  }
+
+}
