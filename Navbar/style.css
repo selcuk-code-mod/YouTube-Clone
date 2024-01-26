@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.flow {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+#list-icon {
+  font-size: 1.5rem;
+}
+
+.list-icon-a:hover{
+  background-color: #E5E5E5;
+ 
+}
+
+
+#dots-icon {
+  font-size: 1.3rem;
+  color: black;
+}
+
+#mic-icon {
+  font-size: 1.2rem;
+}
+
+#search-icon {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#search-icon:hover{
+  background-color: #F0F0F0 ;
+}
+
+#right-icon{
+}
+
+.search-input {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.right-icon {
+  width: 42px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.flow-item {
+  margin-right: 10px;
+}
+.account:hover{
+  background-color: #DEF1FF;
+  color: #065FD4;
+}
+.account{
+    color: #065FD4;
+    border: 0.5px solid rgba(33, 33, 33, 0.2);
+    background-color: white;
+    border-radius: 15px;    
+    padding: 0.2rem 0.6rem;
+}
+.tumu{
+  background-color: #030303;
+  color: white;
+}
+.tumu:hover{
+  background-color: #030303;
+  color: white;
+}
