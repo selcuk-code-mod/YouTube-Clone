@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css
+    "
+    />
+    <link rel="stylesheet" href="/side-bar/style.css" />
+  </head>
+  <body>
+    <header>
+      <div
+        style="width: 40px; height: 40px"
+        class="menu btn fs-5 position-absolute rounded-pill"
+      >
+        <label for="chk1">
+          <i class="fa fa-bars"></i>
+        </label>
+      </div>
+      <input type="checkbox" name="" id="chk1" />
+      <div class="container-fluid second">
+        <div class="row">
+          <div class="col-1 pt-5">
+            <div class="btnrespons">
+              <a href="https://www.youtube.com/"
+                ><i class="bi bi-house-door-fill"></i>
+                <div class="content pt-2">Home</div></a
+              >
+            </div>
+            <div class="btnrespons mt-1">
+              <a href="https://www.youtube.com/shorts/G6gv2NYfVKQ"
+                ><img
+                  id="shorts"
+                  src="../side-bar/images/youtube-shorts-logo-15253.png"
+                  alt=""
+                />
+                <div class="content pt-2">Shorts</div></a
+              >
+            </div>
+            <div class="btnrespons mt-1">
+              <a href="https://www.youtube.com/feed/subscriptions"
+                ><img
+                  class="subscriptions"
+                  src="../side-bar/images/subcrıptıon.png"
+                  alt=""
+                />
+                <div class="content pt-2">Subscriptions</div></a
+              >
+            </div>
+            <div class="btnrespons mt-1">
+              <a href="https://www.youtube.com/feed/you"
+                ><svg
+                  id="you"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                >
+                  <path
+                    d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z"
+                  ></path>
+                </svg>
+                <div class="content pt-2">You</div></a
+              >
+            </div>
+            <div class="btnrespons mt-1">
+              <a href="https://www.youtube.com/feed/history"
+                ><i class="fa-solid fa-clock-rotate-left"></i>
+                <div class="content pt-2">History</div></a
+              >
+            </div>
+          </div>
+          <div class="col-11"></div>
+        </div>
+      </div>
+
+      <div class="side-bar">
+        <div class="container-fluid">
+          <div class="row text-start mt-3 bg-white">
+            <div class="col pt-3 ps-4">
+              <div class="btn rounded-3">
+                <a href="https://www.youtube.com/"
+                  ><span><i class="bi bi-house-door pe-4 house"></i></span
+                  >Home</a
+                >
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span class="pe-3"
+                    ><img
+                      src="/side-bar/images/youtube-shorts-logo-15253.png"
+                      alt=""
+                  /></span>
+                  <span class="ps-1">Shorts</span></a
+                >
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span
+                    ><img
+                      class="me-4"
+                      src="images/subcrıptıon.png"
+                      alt="" /></span
+                  >Subscriptions</a
+                >
+              </div>
+              <hr />
+              <div class="you ms-2 pb-2 fs-6 fw-bold">
+                You <span class="ps-2">&gt;</span>
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span
+                    ><img class="me-4" src="images/history.png" alt="" /></span
+                  >History</a
+                >
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span
+                    ><img
+                      class="me-3 watch-2"
+                      src="images/watch2.svg"
+                      alt="" /></span
+                  >&nbsp;Watch later</a
+                >
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span
+                    ><i
+                      class="fa-regular fa-thumbs-up pe-4 ps-1 thumbs"
+                    ></i></span
+                  >Liked videos</a
+                >
+              </div>
+              <hr />
+              <div class="subscriptions pb-2 ms-2 fs-6 fw-bold">
+                Subscriptions
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span
+                    ><img
+                      class="me-4 rounded-pill"
+                      src="https://yt3.ggpht.com/ytc/AIf8zZRuWEYnW98GKdLLjRwqgINpwGWAoUUd__K3miG-F6I=s88-c-k-c0x00ffffff-no-rj"
+                      alt="" /></span
+                  >Sadık Turan</a
+                >
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span
+                    ><img
+                      class="me-4 rounded-pill"
+                      src="https://yt3.ggpht.com/4Sh4NCt2yTPgyukXpNC6AHXj0iQjUITESn4hrjD0fmcPHjGPZ77HHGLXxzYr_6Xw2kHUqfzehA=s88-c-k-c0x00ffffff-no-rj"
+                      alt="" /></span
+                  >Bilgisayar Genetiği</a
+                >
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span
+                    ><img
+                      class="me-4 rounded-pill"
+                      src="https://yt3.ggpht.com/TYbtc8q-iPdedpvM9jGMBFLNNSb3qHDs6TV0XANdWHbQT2pRgWH0Gk7rLGYbghluFJzYx3bVJw=s88-c-k-c0x00ffffff-no-rj"
+                      alt="" /></span
+                  >Fit Cevap</a
+                >
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span
+                    ><img
+                      class="me-4 rounded-pill"
+                      src="https://yt3.ggpht.com/ytc/AIf8zZRCGuHexYEvGtjBuepF7cn1uZFRpuDkyd2VjVMRGg=s88-c-k-c0x00ffffff-no-rj"
+                      alt="" /></span
+                  >Savas Cebeci</a
+                >
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span
+                    ><img
+                      class="me-4 rounded-pill"
+                      src="https://yt3.ggpht.com/ytc/AIf8zZTqKPFbnL5ift89RAg4wkiJeNS4fz9gm_hkNMov=s88-c-k-c0x00ffffff-no-rj"
+                      alt="" /></span
+                  >Beyazıt Öztürk</a
+                >
+              </div>
+              <div class="btn rounded-3">
+                <a href="#"
+                  ><span
+                    ><img
+                      class="me-4 rounded-pill"
+                      src="https://yt3.ggpht.com/ytc/AIf8zZRD6bKXWhogNU-fCdOfLhmvtl1et1foD34kvCuD=s88-c-k-c0x00ffffff-no-rj"
+                      alt="" /></span
+                  >Advance Wauxhall</a
+                >
+              </div>
+              <p class="d-inline-flex gap-1">
+                <button
+                  class="btn btn-outline"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  <span class="ps-1"
+                    ><i class="bi bi-chevron-down pe-4 fs-5"></i>Show 5 more
+                  </span>
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="btn rounded-3">
+                  <a href="#"
+                    ><span
+                      ><img
+                        class="me-4 rounded-pill"
+                        src="https://yt3.ggpht.com/OBcQ5g2pHk8V8V7JWyQ1RkKMe89YzpfeTR5UxCor-ZKMR3y_jM6Xub6NEcmZLZvjSlA1UCsLLJU"
+                        alt="" /></span
+                    >Mabel Matiz</a
+                  >
+                </div>
+                <div class="btn rounded-3">
+                  <a href="#"
+                    ><span
+                      ><img
+                        class="me-4 rounded-pill"
+                        src="https://yt3.ggpht.com/pXXKMvS6v_-aBddQJHoV8tk1wgnpNs5seHOvypxeGXX2PdyeButD_Du4DQ5uCpg7RQD-JcUz=s88-c-k-c0x00ffffff-no-rj"
+                        alt="" /></span
+                    >Only JS Akademi</a
+                  >
+                </div>
+                <div class="btn rounded-3">
+                  <a href="#"
+                    ><span
+                      ><img
+                        class="me-4 rounded-pill"
+                        src="https://yt3.ggpht.com/ytc/AIf8zZRUe7Hurt5bCS_dIHs3QZp-IcVAMrdJsI53Ejk7KQ=s88-c-k-c0x00ffffff-no-rj"
+                        alt="" /></span
+                    >Kolay Değil</a
+                  >
+                </div>
+                <div class="btn rounded-3">
+                  <a href="#"
+                    ><span
+                      ><img
+                        class="me-4 rounded-pill"
+                        src="https://yt3.ggpht.com/ytc/AIf8zZT4h-zWk0kc1OLlAqeytVx_yCsEXTEfAYusfZhjdg=s88-c-k-c0x00ffffff-no-rj"
+                        alt="" /></span
+                    >Beyhan Budak</a
+                  >
+                </div>
+                <div class="btn rounded-3">
+                  <a href="#"
+                    ><span
+                      ><img
+                        class="me-4 rounded-pill"
+                        src="https://yt3.ggpht.com/nnUOF6l_wficjTb_4gQdXZDX5qr_lDYQQwuz4B9EeUoqOt0CKQKc1neslzyKignsK1jVjMXsGw=s88-c-k-c0x00ffffff-no-rj"
+                        alt="" /></span
+                    >Barış Soydan</a
+                  >
+                </div>
+              </div>
+              <hr />
+              <div class="subscriptions pb-2 ms-2 fs-6 fw-bold">Explore</div>
+              <div class="col-3 pt-2 ps-2">
+                <div class="btn">
+                  <a
+                    href="https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl"
+                    ><span><i class="fa-solid fa-fire pe-4 house"></i></span
+                    >Trends</a
+                  >
+                </div>
+              </div>
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a
+                    href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+                    ><span><i class="bi bi-music-note house pe-4"></i></span
+                    >Music</a
+                  >
+                </div>
+              </div>
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a
+                    href="https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig"
+                    ><span><i class="fa-solid fa-signal house pe-4"></i></span
+                    >Live</a
+                  >
+                </div>
+              </div>
+
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a href="https://www.youtube.com/gaming"
+                    ><span><i class="bi bi-controller house pe-4"></i></span
+                    >Game</a
+                  >
+                </div>
+              </div>
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a
+                    href="https://www.youtube.com/channel/UCEgdi0XIXXZ-qJOFPf4JSKw"
+                    ><span><i class="bi bi-trophy house pe-4"></i></span
+                    >Sport</a
+                  >
+                </div>
+              </div>
+              <hr />
+              <div class="subscriptions pb-2 ms-2 fs-6 fw-bold">
+                More from Youtube
+              </div>
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a href="#" target="_top"
+                    ><span
+                      ><img
+                        class="moreyt me-4"
+                        src="images/123.png"
+                        alt="ytstudio"
+                      />YouTube Studio</span
+                    ></a
+                  >
+                </div>
+              </div>
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a href="#" target="_top"
+                    ><span
+                      ><img
+                        style="width: 24px; height: 24px"
+                        src="images/youtube-music.svg"
+                      />
+                      <span class="ms-3">YouTube Music</span></span
+                    ></a
+                  >
+                </div>
+              </div>
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a href="#" target="_top"
+                    ><span
+                      ><img class="me-3" src="images/youtube-kids-icon.png" />
+                      <span class="pe-2">YouTube Kids</span>
+                    </span></a
+                  >
+                </div>
+              </div>
+              <hr />
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a href="#">
+                    <span><i class="bi bi-gear house pe-4"></i>Settings</span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a href="#">
+                    <span
+                      ><i class="bi bi-flag house pe-4"></i>Feedback
+                      history</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a href="#">
+                    <span
+                      ><i class="bi bi-question-circle house pe-4"></i
+                      >Help</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <div class="col-3 ps-2">
+                <div class="btn">
+                  <a href="#">
+                    <span
+                      ><i class="bi bi-chat-left-dots house pe-4"></i>Send
+                      Feedback</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div class="footer ps-2">
+                <div class="container fw-bolder">
+                  <a href="#"
+                    >Hakkında Basın Telif hakkı Bize ulaşın İçerik Üreticiler
+                    Reklam verme Geliştiriciler Şartlar Gizlilik Politika ve
+                    Güvenlik YouTube Nasıl Çalışıyor? Yeni özellikleri deneyin
+                  </a>
+                </div>
+                <div class="copy text-muted ms-2 mt-3 mb-3">
+                  &copy; 2024 Google LLC
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sİde-bar -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
